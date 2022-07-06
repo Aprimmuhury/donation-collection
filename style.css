@@ -1,0 +1,103 @@
+.body{
+    font-family: 'Arima', cursive;
+    margin: 0%;
+}
+.top-banner{
+    background-image: url(images/donation5.jpg);
+    height:100vh;
+    width: 100%;
+    background-repeat:no-repeat;
+}
+#Header{
+    text-align: center;
+    color: white;
+    padding-top:300px;
+    padding-left: 350px;
+}
+.love{
+    text-align: center;
+    color: white;
+    padding-left:45%;
+}
+.table{
+    text-align: center;
+    padding-left: 45%;
+    padding-top: 15%;
+}
+.flex-container{
+    display: flex;
+    margin-bottom:150px;
+}
+.button{
+    text-align: center;
+    text-decoration:none;
+    background-image: linear-gradient(orange,tomato);
+    padding:10px 40px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.push{
+    display:flex;
+    justify-content: space-between;
+    width: 22%;
+    margin: 40px auto;
+    padding-left: 200px;
+    padding-right: 550px;
+   background-color: azure;
+}
+.seven{
+    padding-left: 45%;
+}
+.nine{
+    padding-left: 36%;
+}
+#one{
+    border: 1px solid orangered;
+    margin: 10px;
+    padding: 30px;
+    padding-top: 40px;
+    border-radius: 15px;
+}
+#two{
+    border: 1px solid orangered;
+    margin: 10px;
+    padding: 30px;
+    padding-top: 40px;
+    border-radius: 15px;
+}
+#three{
+   border: 1px solid orangered;
+   margin: 10px;
+   padding: 30px;
+   padding-top: 40px;
+   border-radius: 15px;
+}
+#four{
+    border: 1px solid orangered;
+    margin: 10px;
+    padding: 30px;
+    padding-top: 40px;
+    border-radius: 15px;
+}
+#five{
+    border: 1px solid orangered;
+    margin: 10px;
+    padding: 30px;
+    padding-top: 40px;
+    border-radius: 15px;
+}
+#six{
+    border: 1px solid orangered;
+   margin: 10px;
+   padding: 30px;
+   padding-top: 40px;
+   border-radius: 15px;
+}
+.ten{
+    padding-left: 45%;
+}
+.gold{
+    
+    border:1px solid orangered
+    orangered
+}
