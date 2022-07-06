@@ -141,9 +141,23 @@
     border-radius: 5px;
     display: inline-block;
 }
-.man{
+.class{
     display: flex;
 }
 .bio{
-    display: block;
+    display: flex;
+    text-align: center;
+    margin: 0 520px;
+}
+#phy{
+    text-align: center;
+    background-color: crimson;
+    border: 2px solid rebeccapurple;
+}
+#chem{
+    margin: 0 580px;
+}
+.footer{
+    text-align: center;
+    margin: 0 580px;
 }
