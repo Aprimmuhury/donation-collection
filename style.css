@@ -1,11 +1,13 @@
 .body{
     font-family: 'Arima', cursive;
     margin: 0%;
+    width:628px;
+    height:1200px;
 }
 .top-banner{
     background-image: url(images/donation5.jpg);
     height:90vh;
-    width: 1000vh;
+    width: 2000vh;
     background-repeat:no-repeat;
 }
 #Header{
@@ -127,5 +129,21 @@
     border-radius: 10px;
 }
 #putu{
+    display: block;
+}
+#cat{
+    text-align: center;
+    text-decoration:none;
+    background-image: linear-gradient(orange,tomato);
+    padding:10px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+    display: inline-block;
+}
+.man{
+    display: flex;
+}
+.bio{
     display: block;
 }
