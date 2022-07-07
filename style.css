@@ -168,7 +168,14 @@
 }
 .cow{
     display: flex;
+    border: #111;
 }
 #humanity{
     font-family: italic;
+}
+.man{
+    margin-bottom: 250px;
+}
+.nike{
+    margin-left: 150px;
 }
