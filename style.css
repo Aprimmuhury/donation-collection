@@ -2,13 +2,13 @@
     font-family: 'Arima', cursive;
     margin: 0;
     width:628px;
-    height:1200px;
+    height:500px;
 }
 .top-banner{
     background-image: url(images/donation5.jpg);
-    height:90vh;
-    width: 2000vh;
+    /* height:90vh; */
     background-repeat:no-repeat;
+    margin:0 55px;
 }
 #Header{
     text-align: center;
@@ -30,6 +30,10 @@
 .flex-container{
     display: flex;
     margin-bottom:150px;
+    padding-top: 2%;
+    /* border: 2px solid gray; */
+    padding: 2%;
+    border-radius: 10px;
 }
 .button{
     text-align: center;
@@ -122,14 +126,9 @@
     margin: 10px;
     justify-content: space-around;
 }
-.flex-container{
-    padding-top: 2%;
-    border: 2px solid gray;
-    padding: 2%;
-    border-radius: 10px;
-}
 #putu{
     display: block;
+    background: darksalmon;
 }
 #cat{
     text-align: center;
@@ -145,21 +144,22 @@
     display: flex;
 }
 .bio{
+    width: 100%;
+   max-width: 50%;
+   margin: 0 auto;
+   text-align: center;
+   padding-top: 6%;
+}
+.update-form {
+    margin: 50px auto;
+    background-color: #fcedc4;
     display: flex;
-    text-align: center;
-    margin: 0 520px;
-    
-}
-#phy{
-    text-align: center;
-    background-color: crimson;
-    border: 2px solid crimson;
-    
-}
-#chem{
-    padding-top: 5%;
-    margin: 0 560px;
-}
+    align-items: center;
+    justify-content: center;
+    padding: 60px 45px;
+    width: 45%;
+    border-radius: 5%;
+ } 
 .lion{
     text-align: center;
     font-size: large;
@@ -169,6 +169,7 @@
 .cow{
     display: flex;
     border: #111;
+    margin: 50px;
 }
 #humanity{
     font-family: italic;
@@ -178,4 +179,14 @@
 }
 .nike{
     margin-left: 150px;
+}
+.form-info-btn{
+    background: crimson;
+    color: aliceblue;
+}
+.adi{
+    color: darkred;
+}
+.das{
+    color: white;
 }
